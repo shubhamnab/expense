@@ -1,0 +1,31 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        version     = "1.0.1"
+        versionCode = "11" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.5.0" />
+
+        <name>Daily Expense</name>
+
+        <description>
+        Its a daily expense manager app to maintain a database of daily expenses. 
+        </description>
+
+        <author href="http://www.webflax.in/" email="shubhamjaiswal1860@gmail.com">
+        Shubham Jaiswal
+        </author>
+		
+		<icon src="favicon.png" />
+    <icon src="favicon.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="favicon.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="favicon.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="favicon.png"  gap:platform="android"    gap:density="xhdpi" />
+    <icon src="favicon.png"  gap:platform="winphone" />
+    
+
+    </widget>
